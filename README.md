@@ -55,8 +55,8 @@ You can set the default notification position using the /setnotify command in-ga
 
 # Notification Samples
 
-<img src="https://r2.fivemanage.com/WcNmcqGHf2fa5LZLnVlft/images/notify.png" alt="Notification Example" width="800" height = "800"/>
+<img src="https://r2.fivemanage.com/WcNmcqGHf2fa5LZLnVlft/images/notify.png" alt="Notification Example" width="600" height = "600"/>
 
 # Setting Position
 
-<img src="https://r2.fivemanage.com/WcNmcqGHf2fa5LZLnVlft/images/set_notify.png" alt="Setting Position" width="400" height = "800"/>
+<img src="https://r2.fivemanage.com/WcNmcqGHf2fa5LZLnVlft/images/set_notify.png" alt="Setting Position" width="600" height = "600"/>
