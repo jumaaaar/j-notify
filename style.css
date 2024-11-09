@@ -1,0 +1,64 @@
+@font-face {
+  font-family: Quicksand;
+  src: url(./Quicksand.ttf);
+}
+
+:root {
+  --animate-duration: 500ms;
+  --animate-delay: 0.1s;
+}
+
+body {
+  background-color: transparent;
+  color: rgb(232, 232, 232);
+  font-family: Quicksand;
+  overflow: hidden;
+}
+
+
+.container {
+  display: none;
+  width: 60%;
+}
+
+#notify {
+  font: caption;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+strong {
+  letter-spacing: 1px;
+  text-shadow: rgba(255, 255, 255, 0.558) 1px 0 10px;
+}
+
+.color {
+  background: linear-gradient(20deg, rgba(255, 242, 0, 0.21), rgb(0, 0, 0));
+  color: #f0d50d;
+  color: rgba(0, 0, 0, 0.514);
+}
+
+#top-left,
+#top-center,
+#top-right,
+#middle-left,
+#middle-right,
+#bottom-left,
+#bottom-center,
+#bottom-right {
+  border: 1px dashed rgb(231, 231, 231);
+}
+
+#toaster,
+#toaster-header {
+  border-color: #000000;
+  background-color: #28282882;
+}
+#toaster:hover {
+  background-color: #4a4a4aa1;
+}
+
+.p-text {
+  color: beige;
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.cdnfonts.com/css/chinese-rocks');
+@import url('https://fonts.cdnfonts.com/css/rdr-lino');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+@font-face {
+              font-family: 'DustWest';
+            font-weight: normal;
+
+  src: url('DustWest.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+:root {
+  --animate-duration: 500ms;
+  --animate-delay: 0.1s;
+}
+
+body {
+  background-color: transparent;
+  color: rgb(232, 232, 232);
+  font-family: Quicksand;
+  overflow: hidden;
+}
+
+
+.container {
+  display: none;
+  width: 60%;
+}
+
+#notify {
+              font-family: 'DustWest';
+            font-weight: normal;
+
+  font: caption;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+strong {
+  letter-spacing: 1px;
+  text-shadow: rgba(255, 255, 255, 0.558) 1px 0 10px;
+}
+
+.color {
+  background: linear-gradient(20deg, rgba(255, 242, 0, 0.21), rgb(0, 0, 0));
+  color: #f0d50d;
+  color: rgba(0, 0, 0, 0.514);
+}
+
+#top-left,
+#top-center,
+#top-right,
+#middle-left,
+#middle-right,
+#bottom-left,
+#bottom-center,
+#bottom-right {
+  border: 1px dashed rgb(231, 231, 231);
+}
+
+#toaster,
+#toaster-header {
+  border-color: #000000;
+  background-color: #28282882;
+}
+#toaster:hover {
+  background-color: #4a4a4aa1;
+}
+
+.p-text {
+  color: beige;
+}
+
+.toast-body {
+  display: flex;
+  font-family: 'DustWest';
+  font-weight: normal;
+
+  align-items: center;
+  padding: 10px;
+  word-wrap: break-word; /* Allow the text to wrap */
+  overflow-wrap: break-word; /* For better cross-browser support */
+  max-width: 100%; /* Ensure the body doesn't exceed its container width */
+}
+
+.toast-body .d-flex {
+  flex-direction: row; /* Row layout for icon and text */
+  flex-wrap: wrap; /* Allow content to wrap */
+}
+
+.toast-body span {
+font-family: 'DustWest';
+font-weight: normal;
+
+  flex-grow: 1; /* Allow text to take the remaining space */
+  overflow-wrap: break-word; /* Ensure long words break properly */
+  text-align: left; /* Align text to the left if desired */
+}
+
+/* Toast body text */
+.toast-body {
+  display: flex;
+  flex-wrap: wrap; /* Allow the body to wrap its content */
+  justify-content: flex-start; /* Align content to the left */
+  align-items: center; /* Align icon and text vertically */
+  word-wrap: break-word; /* Break words when necessary */
+}
+
+.toast i {
+  font-size: 25px; /* Icon size */
+  margin-right: 12px; /* Space between icon and text */
+  background-color: rgba(255, 255, 255, 0.2); /* Background for icon */
+  padding: 5px;
+  border-radius: 50%;
+}
+
+
+.toast {
+  display: inline-block;
+  max-width: 80vw; /* Maximum width relative to viewport width (dynamic) */
+  min-width: 150px; /* Minimum width to ensure it's visible */
+  word-wrap: break-word; /* Allow wrapping for longer words */
+  overflow: hidden; /* Prevent content from overflowing */
+}
+
+.toast-header {
+  border: none;
+  background-color: transparent; /* Remove header background */
+}
+
+.toast-body {
+  color: #fff; /* Set text color */
+  font-size: 15px; /* Text size */
+  text-shadow: rgba(255, 255, 255, 0.5) 1px 0 5px; /* Optional text shadow */
+}
